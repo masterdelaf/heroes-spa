@@ -1,7 +1,13 @@
+import HeroeList from "../components/HeroeList"
 
 
 export const DcPage = () => {
   return (
-    <div>DcPage</div>
+    <>
+      <h1>DcPage</h1>
+      <hr />
+
+      <HeroeList publisher="DC Comics"/>
+    </>
   )
 }
